@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PlayDevTools {
-    public static void main(String[] args) {
-        SpringApplication.run(PlayDevTools.class,args);
+public class SpringBootDemoApplication {
 
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootDemoApplication.class, args);
+	}
 
 }
